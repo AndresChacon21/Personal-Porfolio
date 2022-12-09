@@ -1,0 +1,49 @@
+Date: 11/30/2022 Last Update
+Description: A simple design of a personal freelance website. Purely visual, it doesn't have any functionality added.
+Objective: Introducing the fundamentals of HTML5 and CSS.
+Coded with: HTML5/CSS 
+Tools use: 
+    * VS Code
+    * Firefox Dev Edition
+    * Google Fonts              https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+    * Tabler icons              https://tablericons.com
+    * Box Shados CSS Generator  https://www.cssmatic.com/box-shadow
+    * Normalize CSS             https://necolas.github.io/normalize.css/
+    * Responsively              https://responsively.app
+    * Netlify                   https://www.netlify.com
+
+What I learned: 
+    HTML
+        * I learned the basic components of HTML5.
+        * I learned the basic behavior/errors of HTML5.
+        * I learned the functionality of the <body> and <head> tags.
+        * I learned how to set up a basic structure in HTML. Also, the good practices and how to properly use tags to structure my website.
+        * I learned how to make a navigation bar, add images, add svg icons, add lorem ipsum text to have a preview of the website.
+        * I learned the importance of documenting my code to make the process easier (I must take in consideration that I’m working by myself; I need experience is a team project scenario).
+    CSS
+        * I learned the basic components of CSS.
+        * I learned the different ways to code CSS (BEM, Utility First, Modules).
+        * I learned the basic behavior/errors of CSS.
+        * I learned how to use different types of selectors (universal, element, class, id, attribute).
+        * I learned how to combine selectors.
+        * I learned how to use pseudo-class selectors.
+        * I learned the concept of specificity.
+        * I learned how to change color, size, shape, manipulate text, images, sections and more.
+        * I learned about the different display options and how to manipulate the content inside of them.
+        * I learned about the concept of responsive web design.
+        * I learned about media queries and user snippets.
+        * I learned how to use repeat function.
+        * I learned about Box Model and how to use "hacks" to simplify it use. https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+
+What I coded: 
+    * Costume nav bar with hover effects.
+    * Image as background of a section, with additional elements on top.
+    * Display 3 elements in a section using grid display.
+    * I style a basic form.
+
+My observations:
+    This project made me realize that I've been coding websites wrong all my life. I learned a lot and at the same time I have so a lot of questions.
+    I thinks a made progress but I need to take in consideration other skills, such as: usings commands to code faster, getting familiar with the industry and
+    improve my mechanical skills and knowledge.
+
+    I not a fan off the desing but its okay for my first project using only CSS and HTML5

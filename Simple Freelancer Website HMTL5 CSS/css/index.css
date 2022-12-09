@@ -1,0 +1,175 @@
+/*---------------------------------------------------------------------------   Color Pallete    */
+
+:root {
+    --primary: #FFC107;
+    --secundary: #0097A7;
+}
+
+/*---------------------------------------------------------------------------   HTML Settings    */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    /*With this we can use padding in a elemento wihtout altering the desire size*/
+}
+
+/*Box Module*/
+*,
+*:before,
+*:after {
+    /*This applies the box sizing type to all elements*/
+    box-sizing: inherit;
+}
+
+
+
+/*---------------------------------------------------------------------------   Utilities    */
+
+.container {
+    border-radius: 1.5rem;
+    margin: 1.5rem 20%;
+
+    padding: 2rem;
+
+    -webkit-box-shadow: -1px 1px 19px -7px rgba(97, 97, 97, 1);
+    -moz-box-shadow: -1px 1px 19px -7px rgba(97, 97, 97, 1);
+    box-shadow: -1px 1px 19px -7px rgba(97, 97, 97, 1);
+}
+
+.center {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.text-xl {
+    font-size: 4rem;
+}
+
+.text-lg {
+    /*Same size than a h1 tag*/
+    font-size: 3rem;
+}
+
+.text-md {
+    /*Same size than a h2 tag*/
+    font-size: 2.4rem;
+}
+
+.text-sm {
+    /*Same size than a h3 tag*/
+    font-size: 1.8rem;
+}
+
+/*---------------------------------------------------------------------------   Navegation Bar    */
+
+.nav-bar {
+    background-color: var(--secundary);
+}
+
+.nav-bar nav {
+    /*Display*/
+    display: flex;
+    justify-content: space-between;
+
+    /*Dimensions & Position*/
+    width: 70%;
+    margin: 0 auto;
+
+    /*Style*/
+    background-color: var(--secundary);
+    border: var(--secundary);
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1rem;
+    margin: 0;
+}
+
+.nav-bar a:hover {
+    color: black;
+    background-color: var(--primary);
+}
+
+/*---------------------------------------------------------------------------   Banner    */
+
+.banner {
+    /*Background Image*/
+    background-image: url("../resources/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /*Dimensions & Position*/
+    height: 44rem;
+    position: relative;
+}
+
+.banner div {
+    /*Display % Center*/
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    /*Color*/
+    color: white;
+    background-color: rgb(0 0 0 / 70%);
+
+    /*Dimensions*/
+    width: 100%;
+    height: 100%;
+}
+
+.banner a {
+    background-color: var(--secundary);
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 1.5rem;
+}
+
+.banner a:hover {
+    background-color: #0c7783;
+}
+
+/*---------------------------------------------------------------------------   My Services   */
+
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1rem;
+}
+
+.services-item {
+    text-align: center;
+}
+
+.services-icon {
+    background-color: var(--primary);
+}
+
+/*---------------------------------------------------------------------------   Media Queries   */
+
+@media (max-width: 490px) {
+    /*Mobile Size*/
+
+    .nav-bar nav {
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+    }
+
+}
