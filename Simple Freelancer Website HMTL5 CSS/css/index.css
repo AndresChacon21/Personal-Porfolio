@@ -49,6 +49,14 @@ body {
     font-weight: bold;
 }
 
+.flex {
+    display: flex;
+}
+
+.aling-right {
+    justify-content: flex-end;
+}
+
 .text-xl {
     font-size: 4rem;
 }
@@ -154,12 +162,119 @@ body {
 }
 
 .services-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
 
 .services-icon {
+    display: flex;
+
+    /*Vertical Alingment*/
+    justify-content: center;
+
+    /*Horizontal Alingment*/
+    align-items: center;
+    
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
     background-color: var(--primary);
 }
+
+.services-item h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--secundary);
+}
+
+.services-item p {
+    line-height: 2;
+    font-weight: normal;
+}
+
+
+/*---------------------------------------------------------------------------   Contact   */
+
+.contact-form{
+    background-color: #727374;
+    width: min(60rem, 100%);
+    /*min() is a function that uses the smaller value between 2 values*/
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.contact-form fieldset {
+    border: none;
+}
+
+.contact-form legend {
+    margin: 0 auto;
+    color: var(--primary);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.contact-inputs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+    grid-template-rows: auto auto 20rem;
+}
+
+.input-field {
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.input-field label {
+    color: white;
+    font-weight: bold;
+    margin-bottom: .5rem;
+    display: block;
+}
+
+.input-field input,
+.input-field textarea {
+    color: var(--grey);
+    width: 100%;
+    border: none;
+    padding: 1.5rem;
+    border-radius: .5rem;
+}
+
+.input-field textarea {
+    width: 100%;
+    height: 100%;
+}
+
+.input-field:nth-child(3),
+.input-field:nth-child(4) {
+    grid-column: 1 / 3;
+}
+
+.form-btn{
+    display: flex;
+    justify-content: end;
+}
+
+.contact-btn {
+    background-color: var(--secundary);
+    color: white;
+    padding: 1rem 3rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .5rem;
+    border: none;
+}
+
+
 
 /*---------------------------------------------------------------------------   Media Queries   */
 

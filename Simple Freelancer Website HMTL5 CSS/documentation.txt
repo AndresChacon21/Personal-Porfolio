@@ -47,3 +47,6 @@ My observations:
     improve my mechanical skills and knowledge.
 
     I not a fan off the desing but its okay for my first project using only CSS and HTML5
+
+Problems I encounterd:
+    * I had troubles displaying a btn at the end of the form. :(
