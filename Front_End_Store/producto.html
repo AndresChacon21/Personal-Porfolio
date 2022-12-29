@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front End Store</title>
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+
+    <!--Normalize-->
+    <link rel="stylesheet" href="../Front_End_Store/css/normalize.css">
+
+    <!--My CSS Sheets-->
+    <link rel="stylesheet" href="../Front_End_Store/css/index.css">
+</head>
+
+<body>
+
+
+    <header class="header">
+        <a href="index.html">
+            <img src="resources/logo.png" alt="Logotipo" class="header__logo">
+        </a>
+    </header>
+
+    <nav class="navbar">
+        <a href="index.html" class="navbar__link navbar__link--active">Tienda</a>
+        <a href="nosotros.html" class="navbar__link">Nosotros</a>
+    </nav>
+
+    <main class="container">
+        <h1>React JS</h1>
+
+        <div class="grid--product">
+            <img src="/Front_End_Store/resources/3.jpg" alt="product_img" class="product__image">
+
+            <div class="product__info">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae saepe deserunt nulla. Natus
+                    cupiditate hic asperiores, harum iusto, aliquam velit maiores iste quaerat neque tenetur! Ullam
+                    nihil consequuntur necessitatibus quisquam?</p>
+
+                    <form class="form">
+                        <select class="form__input">
+                            <option disabled selected>Seleccionar talla</option>
+                            <option>Pequeña</option>
+                            <option>Mediano</option>
+                            <option>Grande</option>
+                        </select>
+                        
+                        <input type="number" min="1" value="Cantidad" class="form__input">
+
+                        <input type="button" value="Agregar al carrito" class="form__submit">
+                    </form>
+            </div>
+
+        </div>
+
+    </main>
+
+
+
+    <footer class="footer">
+        <p class="footer__text">Front End Store - Todos los derechos reservados 2022</p>
+    </footer>
+
+
+
+</body>
+
+</html>
